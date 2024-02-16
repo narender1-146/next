@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-let count = 0; // This is a simple in-memory counter
+let count = 0;
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   count++;
